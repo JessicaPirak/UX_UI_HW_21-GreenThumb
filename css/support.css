@@ -1,0 +1,217 @@
+
+
+/* NAVIGATION BAR */
+
+ body {
+    margin: 0;
+    padding: 0;
+    background: url('../Images/background\ image.png') no-repeat center center;
+    background-size: cover;
+ }
+
+
+ .navbar-custom {
+    margin-top: 36px; 
+    border-radius: 36px; 
+    max-width: 1400px; 
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+    .custom-button {
+        color: #000; /* Text color */
+        background-color: #FFF; /* Background color */
+        border-color: #56765F;
+        font-family: 'Arial', sans-serif; /* Change this to the desired font */
+        font-size: 16px; /* Change this to the desired font size */
+        border-radius: 16px;
+        
+    }
+
+    .custom-button:hover {
+        background-color: #56765F; /* Hover background color */
+        border-color: #56765F;
+        color: #FFF;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .green-thumb {
+        color: #56765F; /* Change this to the desired color */
+        font-weight: 600;
+    }
+
+
+/* SEARCH */
+
+
+
+.search-heading {
+    font-size: 36px;
+    margin-top: 80px;
+    color: #FFF;
+}
+
+.search-input {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 300PX;
+    font-size: 16px;
+}
+
+.search-button {
+    margin-top: 20px;
+    background-color: #56765F; /* Change to your desired color */
+    color: #FFFFFF; /* Change to the desired text color for contrast */
+    border-color: #56765F; /* Set the border color if needed */
+}
+
+.search-button:hover {
+    background-color: #4C5C51; /* Change to your desired hover color */
+    border-color: #4C5C51 /* Change border color on hover */
+}
+
+/* SEARCH */
+
+.new-section {
+    background-color: #fff; /* White background */
+    padding: 50px 0; /* Adjust padding as needed */
+    margin-top: 80px;
+}
+
+
+.card {
+    background-color: #fff; /* Card background color */
+    border: 1px solid #fff; /* Border for the card */
+    border-radius: 16px; /* Rounded corners */
+    padding: 20px; /* Padding within the card */
+    text-align: center; /* Center-align content */
+    margin-bottom: 20px; /* Space between cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for the card */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: center; /* Center align horizontally */
+    justify-content: center; /* Center align vertically */
+    height: 309px;
+    width: 394px;
+    margin-left: 100;
+}
+
+.card-image {
+    max-width: 80px; /* Image width within the card */
+    height: auto; /* Maintain image aspect ratio */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.card-heading {
+    font-size: 20px; /* Heading font size */
+    margin: 10px 0; /* Space above and below the heading */
+    color: #56765F; /* Heading text color */
+}
+
+.card-caption {
+    font-size: 14px; /* Caption font size */
+    color: #777; /* Caption text color */
+}
+
+
+/* FOOTER*/
+
+.footer-section {
+    background-color: transparent; /* Set background color to transparent or any other value */
+    padding: 50px 0; /* Adjust padding as needed */
+    color: #fff; /* Text color */
+    width: 100%; /* Extend the background to cover the entire width */
+    margin-top: 40px;
+}
+
+.footer-list-items li:hover {
+    background-color: #56765F; /* Change color on hover */
+    color: #44544F; /* Change text color on hover */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-heading {
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #C7EED2;
+}
+
+.footer-right {
+   
+    display: flex;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+.footer-list {
+    margin-right: 64px;
+}
+
+.footer-list-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-list-items {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-list-items li {
+    margin-bottom: 5px;
+}
+
+.subscribe-section {
+    margin-top: 60px;
+    text-align: center;
+    margin-right: -530px;
+    
+}
+
+.subscribe-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+.newsletter-input {
+    padding: 10px;
+    border: none;
+    border-radius: 16px;
+    width: 500px;
+    margin-top: 16px;
+
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    background-color: #C7EED2; /* Button background color */
+    border: none;
+    color: #000; /* Button text color */
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.newsletter-button:hover {
+    background-color: #44544F; /* Hover background color */
+}
